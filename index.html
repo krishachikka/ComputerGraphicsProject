@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CG Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header><h1>DRAW YOUR SHAPES !</h1></header>
+    <canvas id="canvas"></canvas>
+
+    <div class="controls">
+
+        <div class="shape-options">
+            <label for="shape"></label>
+            <select id="shape">
+                <option value="pentagon">Pentagon</option>
+                <option value="hexagon">Hexagon</option>
+                <option value="square">Square</option>
+                <option value="triangle">Triangle</option>
+                <option value="circle">Circle</option>
+            </select>
+        </div>
+        <div class="color-palette">
+            <label for="color"></label>
+            <input type="color" id="color">
+        </div>
+
+        <div class="size-slider">
+            <label for="size">Size:</label>
+            <input type="range" min="10" max="200" id="size">
+        </div>
+        <button onclick="animateShape()">Draw</button>
+
+    </div>
+
+    <script src="shapes.js"></script>
+</body>
+
+</html>

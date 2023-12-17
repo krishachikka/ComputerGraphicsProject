@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background: rgb(169, 146, 143);
+    background-image: url('aquaryus15-j0TOma0mHdc-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+    background-color: #c8c8cb;
+    width: 500px;
+    align-self: center;
+}
+h1{
+    text-align: center;
+    font-weight: 900px bold;
+    color: #282626;
+    
+}
+
+.animated {
+    transition: transform 1s ease-in-out; /* You can adjust the duration and easing function */
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.shape {
+    animation: rotate 2s linear infinite; /* Adjust the duration and timing function */
+}
+
+button{
+    height: 55px;
+    width: 150px;
+    background: rgb(23, 29, 83);
+    box-shadow: 0 0 3px 2px#c1c1cf;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 12px;
+    margin-left: 10px;
+    justify-content: center;
+}
+
+button:hover{
+    background: #c1c1cf;
+    color: rgb(4, 17, 142);
+}
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.color-palette, .shape-options, .size-slider {
+    margin-bottom: 20px;
+    margin: 20px;
+}
+
+.shape-options {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+}
+canvas {
+    border: 5px solid rgb(1, 1, 45);
+    margin-top: 20px;
+    margin-left: 290px;
+    height: 450px;
+    background: white;
+    border-radius: 25px;
+}
+.controls {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.color-palette{
+    width: 80px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    display: inline;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+}
+#shape{
+    width: 250px;
+    border: 1px solid #ccc;
+    outline: none;
+    background: white;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 18px;
+}
+.color-palette #color{
+    border-radius: 10px;
+    width: 80px;
+    height: 50px;
+    border: 10px solid white;
+}
+.size-slider{
+    border-radius: 10px;
+    width: 150px;
+    height: 45px;
+    background: white;
+    padding: 3px;
+    text-align: center;
+}
