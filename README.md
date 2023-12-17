@@ -6,9 +6,9 @@ Embark on a visually captivating journey into the world of computer graphics wit
 <br>
 Key Features:
 <br>
--Interactive Shapes: Engage your audience with dynamically rendered shapes that respond to user interactions.
--Colorful Palette: Enhance the visual appeal by incorporating a vibrant color palette, making your animations truly eye-catching.
--User-Friendly Controls: Implement user-friendly controls using JavaScript to allow users to manipulate the animations in real-time.
+-Interactive Shapes: Engage your audience with dynamically rendered shapes that respond to user interactions.<br>
+-Colorful Palette: Enhance the visual appeal by incorporating a vibrant color palette, making your animations truly eye-catching.<br>
+-User-Friendly Controls: Implement user-friendly controls using JavaScript to allow users to manipulate the animations in real-time.<br>
 <br>
 
 <b>Link: </b> https://krishachikka.github.io/ComputerGraphicsProject/
